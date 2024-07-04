@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5fc;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.alura {
+  margin-left: 55px;
+  margin-bottom: 25px;
+}
+
+.container {
+  width: 270px;
+  height: 540px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Muneco {
+  background-color: white;
+}
+
+.ocultar {
+  display: none;
+}
+
+.textoFinal {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #343a40;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #495057;
+  background-color: white;
+}
+
+.input {
+  width: 380px;
+  height: 40px;
+  border: none;
+  background-color: #f3f5fc;
+  text-align: center;
+  outline: none;
+  left: 240px;
+  margin-top: 20px;
+}
+
+.input::placeholder {
+  color: #0a3871;
+  font-size: 24px;
+  font-weight: 300px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+}
+
+.btn_encriptar {
+  width: 280px;
+  height: 50px;
+  background-color: #0a3871;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.btn_desencriptar {
+  width: 280px;
+  height: 50px;
+  background-color: #d8dfe8;
+  border-radius: 24px;
+  border: none;
+  color: #0a3871;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 55px;
+}
+
+.button__copiar {
+  width: 250px;
+  height: 50px;
+  background-color: #0a3871;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.bn_ocultar {
+  display: none;
+}
+
+span {
+  margin-top: 355px;
+  margin-left: 55px;
+}
